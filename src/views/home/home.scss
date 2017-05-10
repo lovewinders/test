@@ -1,0 +1,94 @@
+@import '../../styles/minix.scss';
+.con-center {
+  @include BoxCenter;
+}
+/*首页导航组件*/
+.nav-box {
+  margin: 60px 0 20px 0;
+  &>ul {
+    &>li {
+      display: flex;
+      .nav-label {
+        width: 180px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #66cc66;
+      }
+      .nav-span {
+        flex: 1;
+        padding: 10px 0;
+        margin-left: 10px;
+        label {
+          display: inline-block;
+          width: 80px;
+          input[type='checkbox'] {
+            margin-right: 5px;
+            vertical-align: text-bottom;
+          }
+        }
+      }
+    }
+  }
+  .nav-search {
+    margin-top: 18px;
+    //搜索按钮
+    .nav-search-ipt {
+      width: 310px;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 10px;
+    }
+  }
+}
+/*首页商品展示列表*/
+.goods-box {
+  border: 1px solid #cccccc;
+  padding: 10px 1% 10px 1%;
+  margin-top: 20px;
+  .goods-list {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    height: 280px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    vertical-align: top;
+    margin-right: 1.3333333333333%;
+    margin-bottom: 18px;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+    img {
+      width: 70px;
+      margin-top: 50px;
+    }
+    h6 {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    p {
+      text-align: left;
+      margin-top: 20px;
+    }
+  }
+}
+/*分页组件*/
+.page-num-box {
+  text-align: center;
+  padding: 20px 0;
+}
+.page {
+  .pageItem {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #DDDDDD;
+    &.active {
+      background-color: #0099FF;
+    }
+    a {
+      display: block;
+      padding: 5px 10px;
+    }
+  }
+}

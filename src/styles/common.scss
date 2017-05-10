@@ -1,0 +1,40 @@
+/**/
+h1, h2, h3, h4, h5, h6 { font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif; font-weight: 400; letter-spacing: 0; /*text-shadow: 0 1px 1px #f2f2f2;*/ }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, body { height: 100%; width: 100%;}
+html, body { background: #FFF; color: #333333; font: 14px/1.4 "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif; }
+html, body { margin: 0; padding: 0; border: 0; outline: 0;}
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit;font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+ul li, li, ul, li ul li { list-style: none; list-style-type: none; }
+input, button, select, textarea { font:inherit;}/***inherit body font***/
+img { width: auto\9; max-width: 100%; vertical-align: middle; border:none; outline:none;}
+table { border-collapse: collapse;/* 边框合并属性  */ border-spacing: 0; }
+a { color:#373737; text-decoration:none; cursor:pointer; }
+input::-moz-focus-inner{ border: 0;padding: 0;}/*针对Firefox*/
+input[type='text'] { vertical-align:middle; font-size:12px;}
+input[type=text]::-ms-clear { display: none;}/*去掉IE 11 的文本框里的X号*/
+a, input, button, select, textarea { outline: medium none; margin:0; font-size: 100%;}
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] { cursor: pointer; }
+button,input[type='submit'] { padding:7px 10px; background:#FFF; border:none;}
+textarea,input:not([type="image"]) { box-sizing: border-box;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display:inline; *zoom:1; }
+/***reset placeholder color***/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color:    #666;}
+input:-moz-placeholder, textarea:-moz-placeholder { color:    #666;}
+input::-moz-placeholder, textarea::-moz-placeholder { color:    #666;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color:    #666;}
+/*common css*/
+.hy-fl { float:left;}
+.hy-fr { float:right;}
+.hy-clearfix:after { clear: both; content: ""; height:0; visibility: hidden; display: block;}
+.hy-btn {
+  border: 1px solid #a9a9a9;
+}
+.hy-btn.btn-search {
+  height: 40px;
+  padding: 0 20px;
+  border-left: none;
+  background: rgba(0,0,0, 0.1);
+}
